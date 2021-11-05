@@ -2,9 +2,9 @@
   "name": "dwt-vite-vue3-simple",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
+    "dev": "ncp node_modules/dwt/dist public/dwt-resources && vite",
+    "build": "vite build && ncp node_modules/dwt/dist dist/dwt-resources",
+    "serve": "ncp node_modules/dwt/dist public/dwt-resources && vite preview"
   },
   "dependencies": {
     "dwt": "17.1.12",
@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.9.3",
+    "ncp": "^2.0.0",
     "vite": "^2.6.4"
   }
 }

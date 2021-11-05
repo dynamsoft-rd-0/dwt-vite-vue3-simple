@@ -14,7 +14,7 @@ onMounted(()=>{
    * ResourcesPath & ProductKey must be set in order to use the library!
    */
   Dynamsoft.DWT.ResourcesPath = "dwt-resources";
-  Dynamsoft.DWT.ProductKey = 't00891wAAAKBfWo4sRRVNTyLqdC7nKomEJIfBYqfXWg5mblnP0eeJi+LsMIUdQvrBf//ocS3z8MJA47R4VdO4x24uJwlqKgkuZOa7BUQHPkFNA5hFSi6lG2qOK6I=';
+  Dynamsoft.DWT.ProductKey = 't00901wAAAKq7Er/GkEUjxv4/YYDCLuugMmOY/tdXVxFnWboQ8z1EEceCrbEcRDNqk+aTiBB/TFsfaIQgZGEzVUZ/4inSJ4b4B6lfbhAvX8AHyCsgehCRvAA+Ni2z';
   Dynamsoft.DWT.Containers = [{
     WebTwainId: "dwtObject",
     ContainerId: containerId,
