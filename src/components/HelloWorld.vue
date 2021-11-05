@@ -97,15 +97,15 @@ const openImage = ()=>{
 </script>
 
 <template>
-  <!-- we use v-once to force vue don't update the component, which is controlled by native way. -->
-  <div class="hello" v-once>
+  <div class="hello">
       <h1>{{ msg }}</h1>
       <select v-if="!bWASM" id="sources"></select>
       <button v-if="!bWASM" @click="acquireImage()">Acquire Images</button>
       <button @click="openImage()">Open Documents</button>
       <br />
       <br />
-      <div :id="containerId"></div>
+      <!-- we use v-once to force vue don't update the component, which is controlled by native way. -->
+      <div :id="containerId" v-once></div>
   </div>
 </template>
 
